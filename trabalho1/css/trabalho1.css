@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image:
+    linear-gradient(rgba(158, 225, 236, 0.5),rgba(143, 143, 143, 0.5)),url('./imagem_fundo_tela/imagem-de-fundo-de-tela.jpg');
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+
+    background-image: url('imagem-fundo/imagem-fundo.png');
+    background-repeat: no-repeat
+    
+
+
+}
+
+.cabecalho {
+    background-color: #5d8cc2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+    width: 97%;
+    text-align: center;
+    
+}
+
+#titulo {
+    width: 100%;
+    height: 500px;
+}
+
+
+.menu {
+    list-style-type: square;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    justify-content: flex-end;
+    padding: 0;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.desenvolvimento {
+    width: 95%;
+    display: flex; /* Coloca os itens um ao lado do outro */
+    margin: 50px;
+    justify-content: center; /* Centraliza horizontalmente (opcional) */
+    align-items: center; /* Centraliza verticalmente (opcional) */
+}
+
+figcaption {
+  text-align: center; /* Centraliza o texto da legenda */
+  margin-top: 10px; /* Adiciona um espaço entre a imagem e a legenda */
+  font-style: Arial, sans-serif;
+  color:white;
+  
+  padding: 0px;
+  
+}
+
+h2{
+color:white;
+}
+
+h1{
+    color: #000000;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #ccc;
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    height: 300px;
+    width: 100%;
+}
+
+img :hover{
+    transform: scale(1.1);
+    background-color: #0a0a0a;
+}
+
+.rodape{
+    
+    padding-top: 10px;
+    width: 100%;
+    background-color: #7096db;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
